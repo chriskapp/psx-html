@@ -1,0 +1,24 @@
+{
+  "name": "psx/html",
+  "description": "PSX Framework - Html",
+  "homepage": "http://phpsx.org",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Christoph Kappestein",
+      "email": "k42b3.x@gmail.com",
+      "homepage": "http://k42b3.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "PSX\\Html\\": "src/"
+    }
+  }
+}
